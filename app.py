@@ -4,9 +4,9 @@ import json
 
 app = Flask(__name__)
 
-API_KEY = 'your_api_key'
+API_KEY = '7a483711-9f1d-4e99-94c4-c47d196352fe'
 URL = 'https://api.getimg.ai/v1/stable-diffusion-xl/text-to-image'
-IMAGE_URL = "https://example.com/reference-image.jpg"
+IMAGE_URL = "https://m.media-amazon.com/images/I/61zXgqIh+GL._AC_SL1500_.jpg"
 
 @app.route('/generate-images', methods=['POST'])
 def generate_images():
